@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Recherche Digital Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Recherche Digital</h1>
+        <p>Your partner in digital transformation</p>
+        <a href="#contact" class="cta-button">Get in Touch</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Recherche Digital is a leading digital transformation company...</p>
+        <h3>Our Mission</h3>
+        <p>To empower businesses with cutting-edge digital solutions...</p>
+        <h3>Our Vision</h3>
+        <p>To be the global leader in digital innovation...</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Service 1</h3>
+            <p>Description of service 1...</p>
+        </div>
+        <div class="service">
+            <h3>Service 2</h3>
+            <p>Description of service 2...</p>
+        </div>
+        <!-- Add more services as needed -->
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Our Portfolio</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <p>Project description...</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <p>Project description...</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        <div class="contact-info">
+            <p>Address: 123 Digital Street, Tech City</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: contact@recherchedigital.com</p>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Recherche Digital. All rights reserved.</p>
+        <a href="#">Privacy Policy</a>
+    </footer>
+</body>
+</html>
